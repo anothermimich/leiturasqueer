@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+}
+html {
+  background-color: #222;
+}
+body {
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+}
+.queer-img {
+  position: absolute;
+  right: 0;
+  user-select: none;
+  height: 100vh;
+  padding: 2vw;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  gap: 0px 0;
+  padding-top: 80vh;
+}
+.home-link {
+  grid-column-start: 1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-self: right;
+}
+.home-docs,
+.home-instagram,
+.home-meet,
+.home-whats,
+.home-mail {
+  grid-column-start: 2;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.home-mail {
+  grid-row-start: 2;
+}
+.home-whats {
+  grid-row-start: 3;
+}
+.home-instagram {
+  grid-row-start: 4;
+}
+.home-docs {
+  grid-row-start: 5;
+}
+.home-meet {
+  grid-row-start: 6;
+}
+
+@media only screen and (max-device-width: 600px) {
+}
