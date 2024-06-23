@@ -32,7 +32,8 @@ a:hover {
   gap: 1rem;
 }
 .queer-img {
-  height: 90vh;
+  max-width: 800px;
+  max-height: 90vh;
   user-select: none;
 }
 .anchor--hero {
