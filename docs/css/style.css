@@ -22,18 +22,20 @@ a {
 a:hover {
   color: rgb(209, 153, 209);
 }
+h2 {
+  font-size: 7rem;
+}
 .hero {
-  position: relative;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  padding: 5vh 0 5vh 0;
 }
 .queer-img {
   max-width: 800px;
-  max-height: 90vh;
+  max-height: 80vh;
   user-select: none;
 }
 .anchor--hero {
@@ -50,12 +52,8 @@ a:hover {
   margin: 10vh 20vw;
 }
 
-.about h2 {
-  font-size: 7rem;
-}
 .about p {
   font-family: "IBM plex mono";
-  font-size: 2rem;
   line-height: 1.6;
 }
 
@@ -76,7 +74,6 @@ a:hover {
 .home-whats {
   grid-column-start: 2;
   font-family: "IBM plex mono";
-  font-size: 2rem;
   color: white;
   line-height: 1.5;
   white-space: nowrap;
@@ -111,23 +108,20 @@ a:hover {
 .footer p {
   color: #222;
 }
-.footer div {
-  display: grid;
-  grid-template-columns: auto 1fr;
-}
-.footer div h2 {
-  font-size: 3rem;
-  font-weight: bold;
-}
 .footer div a {
-  font-size: 2rem;
   font-family: "IBM plex mono";
   font-weight: 500;
   grid-row-start: 2;
   grid-column-start: 2;
 }
 .footer-design {
-  font-size: 2rem;
   font-family: "IBM plex mono";
   font-weight: 500;
+}
+@media only screen and (max-device-width: 600px) {
+  .queer-img {
+    max-width: 400px;
+    max-height: 60vh;
+    user-select: none;
+  }
 }
