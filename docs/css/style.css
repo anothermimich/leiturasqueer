@@ -143,4 +143,7 @@ h2 {
     max-width: 60vw;
     max-height: 80vh;
   }
+  .anchor--hero {
+    font-size: 6rem;
+  }
 }
