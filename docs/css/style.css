@@ -6,6 +6,7 @@
   font-weight: 500;
   font-size: 100%;
   color: #fff;
+  font-size: 34px;
 }
 html {
   background-color: #222;
@@ -31,7 +32,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5vh 0 5vh 0;
+  padding: 5vh 0;
 }
 .queer-img {
   max-width: 800px;
@@ -119,6 +120,9 @@ h2 {
   font-weight: 500;
 }
 @media only screen and (max-device-width: 600px) {
+  .hero {
+    padding-bottom: 10vh;
+  }
   .queer-img {
     max-width: 400px;
     max-height: 60vh;
