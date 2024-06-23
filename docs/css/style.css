@@ -6,7 +6,7 @@
   font-weight: 500;
   font-size: 100%;
   color: #fff;
-  font-size: 34px;
+  font-size: 1.2rem;
 }
 html {
   background-color: #222;
@@ -124,7 +124,7 @@ h2 {
     padding-bottom: 10vh;
   }
   .queer-img {
-    max-width: 400px;
+    max-width: 100px;
     max-height: 60vh;
     user-select: none;
   }
