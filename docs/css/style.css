@@ -25,6 +25,9 @@ a:hover {
 h2 {
   font-size: 6rem;
 }
+
+/* HERO */
+
 .hero {
   height: 100vh;
   display: flex;
@@ -50,8 +53,10 @@ h2 {
   font-size: 4rem;
   transform: rotate(90deg);
 }
+
+/* ABOUT */
+
 .about {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,6 +69,8 @@ h2 {
   line-height: 1.6;
 }
 
+/* LINKS */
+
 .links {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -73,19 +80,15 @@ h2 {
 }
 .home-link {
   grid-column-start: 1;
-  font-weight: bold;
-  font-size: 7rem;
 }
 .home-docs,
 .home-meet,
 .home-whats {
   grid-column-start: 2;
   font-family: "IBM plex mono";
-  color: white;
   line-height: 1.5;
   white-space: nowrap;
 }
-
 .home-whats {
   grid-row-start: 4;
 }
@@ -96,12 +99,17 @@ h2 {
   grid-row-start: 2;
 }
 
+/* INSTAGRAM */
+
 .instagram {
   display: flex;
   flex-direction: column;
   padding: 10vh 20vw;
   gap: 1rem;
 }
+
+/* FOOTER */
+
 .footer {
   background-color: #fff;
   padding: 3rem;
@@ -129,7 +137,7 @@ h2 {
     font-size: 2.4rem;
   }
   .hero {
-    padding-bottom: 10vh;
+    padding-bottom: 12vh;
   }
   .queer-img {
     max-width: 60vw;
