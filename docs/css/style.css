@@ -3,8 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "IBM Plex Sans", Helvetica, sans-serif;
-  font-weight: 500;
-  color: #fff;
 }
 html {
   background-color: #222;
@@ -14,13 +12,15 @@ body {
   /* overflow-y: hidden; */
   /* overflow-x: hidden; */
   font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
 }
 a {
   text-decoration: none;
   color: #fff;
 }
 a:hover {
-  color: rgb(209, 153, 209);
+  color: #3f92fb;
 }
 h2 {
   font-size: 6rem;
@@ -67,7 +67,7 @@ h2 {
 .links {
   display: grid;
   grid-template-columns: auto 1fr;
-  max-width: 500px;
+  max-width: 80vw;
   margin: 0 20vw;
   align-self: normal;
 }
@@ -117,13 +117,12 @@ h2 {
 }
 .footer div a {
   font-family: "IBM plex mono";
-  font-weight: 500;
   grid-row-start: 2;
   grid-column-start: 2;
 }
 .footer-design {
   font-family: "IBM plex mono";
-  font-weight: 500;
+  font-size: 1rem;
 }
 @media only screen and (max-device-width: 600px) {
   body {
