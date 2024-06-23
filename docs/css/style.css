@@ -13,7 +13,7 @@ body {
   background-color: #222;
   /* overflow-y: hidden; */
   /* overflow-x: hidden; */
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 a {
   text-decoration: none;
@@ -23,7 +23,7 @@ a:hover {
   color: rgb(209, 153, 209);
 }
 h2 {
-  font-size: 7rem;
+  font-size: 6rem;
 }
 .hero {
   height: 100vh;
@@ -126,11 +126,14 @@ h2 {
   font-weight: 500;
 }
 @media only screen and (max-device-width: 600px) {
+  body {
+    font-size: 2.4rem;
+  }
   .hero {
     padding-bottom: 10vh;
   }
   .queer-img {
-    max-width: 40%;
-    max-height: 60vh;
+    max-width: 60vw;
+    max-height: 80vh;
   }
 }
