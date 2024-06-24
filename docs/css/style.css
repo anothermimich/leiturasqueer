@@ -99,9 +99,10 @@ h2 {
 .link-whats {
   grid-row-start: 4;
 }
-.links div img {
+.links a img {
   height: 2rem;
 }
+
 .link-docs {
   grid-row-start: 3;
 }
@@ -135,6 +136,9 @@ footer a {
   font-family: "IBM plex mono";
   color: #222;
 }
+footer a:hover {
+  color: rgb(243, 0, 0);
+}
 
 .license-icons {
   display: flex;
@@ -165,7 +169,7 @@ footer a {
   .link-whats {
     gap: 1.6rem;
   }
-  .links div img {
+  .links a img {
     height: 3.4rem;
   }
   footer a {
