@@ -23,7 +23,11 @@ a:hover {
   color: #3f92fb;
 }
 h2 {
-  font-size: 6rem;
+  font-size: 5.4rem;
+}
+.heart-cursor {
+  cursor: url("data:image/svg+xml,%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --%3E%3Csvg fill='%23ff0000' width='22px' height='22px' viewBox='0 0 1920 1920' xmlns='http://www.w3.org/2000/svg' stroke='%23ff0000'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'/%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M1771.731 291.037C1675.709 193.659 1547.944 140 1411.818 140h-.113c-136.125 0-263.777 53.66-359.573 150.924-37.618 38.07-68.571 80.997-92.294 127.426-23.61-46.429-54.563-89.356-92.068-127.313C771.86 193.659 644.208 140 507.97 140h-.113c-136.012 0-263.777 53.66-359.8 151.037-197.691 200.629-197.691 527.103 1.695 729.088l810.086 760.154 811.893-761.736c197.692-200.403 197.692-526.877 0-727.506' fill-rule='evenodd'/%3E%3C/g%3E%3C/svg%3E"),
+    pointer;
 }
 
 /* HERO */
@@ -78,24 +82,30 @@ h2 {
   margin: 0 20vw;
   align-self: normal;
 }
-.home-link {
+.links h2 {
   grid-column-start: 1;
 }
-.home-docs,
-.home-meet,
-.home-whats {
+.link-docs,
+.link-meet,
+.link-whats {
   grid-column-start: 2;
   font-family: "IBM plex mono";
   line-height: 1.5;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
-.home-whats {
+.link-whats {
   grid-row-start: 4;
 }
-.home-docs {
+.links div img {
+  height: 1.5rem;
+}
+.link-docs {
   grid-row-start: 3;
 }
-.home-meet {
+.link-meet {
   grid-row-start: 2;
 }
 
@@ -110,27 +120,31 @@ h2 {
 
 /* FOOTER */
 
-.footer {
-  background-color: #fff;
-  padding: 3rem;
-  max-width: 100vw;
+footer {
+  padding: 2rem 20vw;
   display: flex;
-  flex-direction: column;
-  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+  background-color: #fff;
 }
-.footer a,
-.footer h2,
-.footer p {
+
+footer a {
+  font-size: 1rem;
+  font-family: "IBM plex mono";
   color: #222;
 }
-.footer div a {
-  font-family: "IBM plex mono";
-  grid-row-start: 2;
-  grid-column-start: 2;
+
+.license-icons {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
 }
-.footer-design {
-  font-family: "IBM plex mono";
-  font-size: 1rem;
+
+.license-icons img {
+  width: 0.8rem;
 }
 @media only screen and (max-device-width: 600px) {
   body {
@@ -145,5 +159,14 @@ h2 {
   }
   .anchor--hero {
     font-size: 6rem;
+  }
+  .links div img {
+    height: 2.4rem;
+  }
+  footer a {
+    font-size: 1.4rem;
+  }
+  .license-icons img {
+    width: 1.6rem;
   }
 }
