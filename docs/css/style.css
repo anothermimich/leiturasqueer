@@ -90,17 +90,17 @@ h2 {
 .link-whats {
   grid-column-start: 2;
   font-family: "IBM plex mono";
-  line-height: 1.5;
+  line-height: 2;
   white-space: nowrap;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.8rem;
 }
 .link-whats {
   grid-row-start: 4;
 }
 .links div img {
-  height: 1.5rem;
+  height: 2rem;
 }
 .link-docs {
   grid-row-start: 3;
@@ -160,8 +160,13 @@ footer a {
   .anchor--hero {
     font-size: 6rem;
   }
+  .link-docs,
+  .link-meet,
+  .link-whats {
+    gap: 1.6rem;
+  }
   .links div img {
-    height: 2.4rem;
+    height: 3.4rem;
   }
   footer a {
     font-size: 1.4rem;
