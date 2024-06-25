@@ -119,6 +119,9 @@ h2 {
   padding: 10vh 0;
   gap: 1rem;
 }
+.instagram-media {
+  max-width: 60vw;
+}
 
 /* FOOTER */
 
@@ -181,7 +184,7 @@ footer a:hover {
     max-width: 80vw;
   }
   .instagram-media {
-    max-width: 80vw !important;
+    max-width: 80vw;
   }
   footer {
     padding: 2rem 10vw;
