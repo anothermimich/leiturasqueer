@@ -118,9 +118,9 @@ h2 {
   flex-direction: column;
   padding: 10vh 0;
   gap: 1rem;
-  margin: 0 auto;
 }
 .instagram-media {
+  margin: 0 auto !important;
   max-width: 60vw;
 }
 
