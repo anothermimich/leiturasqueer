@@ -24,6 +24,10 @@ a:hover {
 }
 h2 {
   font-size: 5.4rem;
+  user-select: none;
+}
+p {
+  user-select: none;
 }
 
 .anchor {
