@@ -62,10 +62,11 @@ h2 {
 
 .about {
   display: flex;
+  max-width: 60vw;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  margin: 10vh 20vw;
+  margin: 10vh auto;
 }
 
 .about p {
@@ -78,8 +79,8 @@ h2 {
 .links {
   display: grid;
   grid-template-columns: auto 1fr;
-  max-width: 80vw;
-  margin: 0 20vw;
+  max-width: 60vw;
+  margin: 0 auto;
   align-self: normal;
 }
 .links h2 {
@@ -115,7 +116,7 @@ h2 {
 .instagram {
   display: flex;
   flex-direction: column;
-  padding: 10vh 20vw;
+  padding: 10vh 0;
   gap: 1rem;
 }
 
@@ -172,6 +173,20 @@ footer a:hover {
   .links a img {
     height: 3.4rem;
   }
+  /* teste */
+  .about {
+    max-width: 80vw;
+  }
+  .links {
+    max-width: 80vw;
+  }
+  .instagram-media {
+    max-width: 80vw !important;
+  }
+  footer {
+    padding: 2rem 10vw;
+  }
+
   footer a {
     font-size: 1.4rem;
   }
