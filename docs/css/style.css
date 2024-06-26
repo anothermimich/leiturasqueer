@@ -124,10 +124,7 @@ p {
 /* INSTAGRAM */
 
 .instagram {
-  display: flex;
-  flex-direction: column;
   padding: 10vh 0;
-  gap: 1rem;
 }
 .instagram-media {
   margin: 0 auto !important;
