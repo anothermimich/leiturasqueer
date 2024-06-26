@@ -19,7 +19,8 @@ a {
   text-decoration: none;
   color: #fff;
 }
-a:hover {
+a:hover,
+a:active {
   color: #3f92fb;
 }
 h2 {
@@ -64,7 +65,7 @@ p {
 }
 .anchor--hero {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   transform: rotate(90deg);
 }
 
@@ -184,10 +185,17 @@ footer a:hover {
   .links a img {
     height: 3.4rem;
   }
-  /* teste */
+
+  /* SOBRE */
+  .achor {
+    transform: translateY(-35vh);
+  }
   .about {
     max-width: 80vw;
   }
+
+  /* LINKS */
+
   .links {
     max-width: 80vw;
   }
