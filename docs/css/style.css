@@ -99,6 +99,7 @@ p {
 }
 .link-docs,
 .link-meet,
+.link-forms,
 .link-whats {
   grid-column-start: 2;
   font-family: "IBM plex mono";
@@ -108,13 +109,15 @@ p {
   align-items: center;
   gap: 0.8rem;
 }
-.link-whats {
-  grid-row-start: 4;
-}
 .links a img {
   height: 2rem;
 }
-
+.link-whats {
+  grid-row-start: 5;
+}
+.link-forms {
+  grid-row-start: 4;
+}
 .link-docs {
   grid-row-start: 3;
 }
