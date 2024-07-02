@@ -97,10 +97,7 @@ p {
 .links h2 {
   grid-column-start: 1;
 }
-.link-docs,
-.link-meet,
-.link-forms,
-.link-whats {
+.links a {
   grid-column-start: 2;
   font-family: "IBM plex mono";
   line-height: 2;
