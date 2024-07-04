@@ -125,6 +125,7 @@ section:last-of-type {
   margin-top: -3px;
 }
 .links a img {
+  background-color: #fff;
   height: 2rem;
 }
 .link-whats {
@@ -192,11 +193,12 @@ section:last-of-type {
 .org-card img {
   max-height: 200px;
   max-width: 20vw;
-  border-radius: 5%;
+  /* border-radius: 5%; */
 }
 .org-card div a img {
   margin-top: 0.8rem;
-  height: 1.5rem;
+  height: 2rem;
+  background-color: #fff;
 }
 .org-card div p {
   font-size: 1rem;
