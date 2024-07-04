@@ -163,12 +163,13 @@ section:last-of-type {
 .org-card {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 .org-card div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: -0.5rem;
 }
 .pronomes {
   font-family: "IBM Plex mono";
@@ -182,7 +183,7 @@ section:last-of-type {
 }
 .org-card div a img {
   margin-top: 0.8rem;
-  height: 2rem;
+  height: 1.5rem;
 }
 .org-card div p {
   font-size: 1rem;
@@ -259,6 +260,9 @@ footer a:hover {
   }
   .how-to {
     max-width: 80vw;
+  }
+  .how-to h2 {
+    line-height: 6rem;
   }
 
   /* LINKS */
