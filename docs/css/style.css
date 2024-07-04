@@ -144,7 +144,8 @@ section:last-of-type {
 
 .instagram h2 {
   max-width: 60vw;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto;
+  border: none !important;
 }
 
 .instagram-media {
@@ -268,7 +269,7 @@ footer a:hover {
   /* HOW-TO */
 
   .anchor {
-    transform: translateY(-35vh);
+    transform: translateY(-30vh);
   }
   .how-to {
     max-width: 80vw;
@@ -287,8 +288,6 @@ footer a:hover {
 
   .instagram h2 {
     max-width: 80vw;
-    margin: 0 auto;
-    border-bottom: none !important;
   }
 
   .instagram-media {
