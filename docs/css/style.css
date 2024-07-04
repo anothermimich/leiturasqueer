@@ -12,12 +12,13 @@ body {
   /* overflow-y: hidden; */
   /* overflow-x: hidden; */
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
 }
 a {
   text-decoration: none;
   color: #fff;
+  font-family: "IBM Plex mono";
 }
 a:hover,
 a:active {
@@ -27,10 +28,24 @@ h2 {
   font-size: 5.4rem;
   user-select: none;
 }
+h3 {
+  font-size: 2.4rem;
+}
 p {
   user-select: none;
+  font-family: "IBM Plex mono";
+  line-height: 1.6;
 }
-
+.small-caps {
+  font-variant: all-small-caps;
+  letter-spacing: 1px;
+}
+section {
+  padding: 5vh 0;
+}
+section:last-of-type {
+  padding: 5vh 0 10vh 0;
+}
 .anchor {
   position: absolute;
   transform: translateY(-20vh);
@@ -49,7 +64,6 @@ p {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5vh 0;
 }
 .queer-img-container {
   width: 100%;
@@ -71,20 +85,17 @@ p {
 
 /* ABOUT */
 
-.about {
+.how-to {
   display: flex;
   max-width: 60vw;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
-  margin: 10vh auto;
+  gap: 1.5rem;
+  margin: 0 auto;
 }
-
-.about p {
-  font-family: "IBM plex mono";
-  line-height: 1.6;
+.how-to h2 {
+  line-height: 6rem;
 }
-
 /* LINKS */
 
 .links {
@@ -124,12 +135,57 @@ p {
 
 /* INSTAGRAM */
 
-.instagram {
-  padding: 10vh 0;
-}
 .instagram-media {
   margin: 0 auto !important;
   max-width: 60vw;
+}
+
+/* ABOUT */
+
+.about {
+  max-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+/* ORG */
+
+.org {
+  max-width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.org-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+}
+.org-card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pronomes {
+  font-family: "IBM Plex mono";
+  font-weight: 300;
+  font-size: 1rem;
+}
+.org-card img {
+  max-height: 200px;
+  max-width: 20vw;
+  border-radius: 5%;
+}
+.org-card div a img {
+  margin-top: 0.8rem;
+  height: 2rem;
+}
+.org-card div p {
+  font-size: 1rem;
 }
 
 /* FOOTER */
@@ -185,12 +241,27 @@ footer a:hover {
   .links a img {
     height: 3.4rem;
   }
+  h2 {
+    font-size: 6.4rem;
+  }
+  h3 {
+    font-size: 3.4rem;
+  }
 
-  /* SOBRE */
+  section {
+    padding: 2.5vh 0;
+  }
+
+  section:last-of-type {
+    padding: 2.5vh 0 5vh 0;
+  }
+
+  /* HOW-TO */
+
   .achor {
     transform: translateY(-35vh);
   }
-  .about {
+  .how-to {
     max-width: 80vw;
   }
 
@@ -202,6 +273,30 @@ footer a:hover {
   .instagram-media {
     max-width: 80vw;
   }
+
+  /* ABOUT */
+
+  .about {
+    max-width: 80vw;
+  }
+
+  /* ORG */
+
+  .org {
+    max-width: 80vw;
+  }
+  .pronomes,
+  .org-card div p {
+    font-size: 1.4rem;
+  }
+  .org-card img {
+    max-height: 250px;
+    max-width: 26.6vw;
+    border-radius: 5%;
+  }
+
+  /* FOOTER */
+
   footer {
     padding: 2rem 10vw;
   }
