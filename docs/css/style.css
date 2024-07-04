@@ -199,7 +199,6 @@ footer {
   margin-top: auto;
   background-color: #fff;
 }
-
 footer a {
   font-size: 1rem;
   font-family: "IBM plex mono";
@@ -208,7 +207,6 @@ footer a {
 footer a:hover {
   color: rgb(243, 0, 0);
 }
-
 .license-icons {
   display: flex;
   gap: 0.2rem;
@@ -247,11 +245,9 @@ footer a:hover {
   h3 {
     font-size: 3.4rem;
   }
-
   section {
     padding: 2.5vh 0;
   }
-
   section:last-of-type {
     padding: 2.5vh 0 5vh 0;
   }
