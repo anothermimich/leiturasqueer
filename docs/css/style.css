@@ -267,8 +267,8 @@ footer a:hover {
 
   /* HOW-TO */
 
-  .achor {
-    transform: translateY(-45vh);
+  .anchor {
+    transform: translateY(-35vh);
   }
   .how-to {
     max-width: 80vw;
