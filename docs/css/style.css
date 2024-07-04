@@ -142,6 +142,11 @@ section:last-of-type {
 
 /* INSTAGRAM */
 
+.instagram h2 {
+  max-width: 60vw;
+  margin: 0 auto 2rem auto;
+}
+
 .instagram-media {
   margin: 0 auto !important;
   max-width: 60vw;
@@ -277,6 +282,13 @@ footer a:hover {
   .links {
     max-width: 80vw;
   }
+
+  /* INSTAGRAM */
+
+  .instagram h2 {
+    max-width: 80vw;
+  }
+
   .instagram-media {
     max-width: 80vw;
   }
