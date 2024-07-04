@@ -194,6 +194,7 @@ section:last-of-type {
   max-height: 200px;
   max-width: 20vw;
   /* border-radius: 5%; */
+  border: #fff solid 3px;
 }
 .org-card div a img {
   margin-top: 0.8rem;
@@ -314,7 +315,6 @@ footer a:hover {
   .org-card img {
     max-height: 250px;
     max-width: 26.6vw;
-    border-radius: 5%;
   }
 
   /* FOOTER */
