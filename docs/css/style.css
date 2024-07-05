@@ -28,7 +28,6 @@ h2 {
   font-size: 5.4rem;
   user-select: none;
   padding-bottom: 1rem;
-  /* border-bottom: #fff solid 3px; */
 }
 h3 {
   font-size: 2.4rem;
@@ -43,10 +42,10 @@ p {
   letter-spacing: 1px;
 }
 section {
-  padding: 5vh 0;
+  padding: 1rem 0;
 }
 section:last-of-type {
-  padding: 5vh 0 10vh 0;
+  padding: 1rem 0 10vh 0;
 }
 .anchor {
   position: absolute;
@@ -130,19 +129,6 @@ section:last-of-type {
   border-radius: 5%;
   height: 2rem;
 }
-
-/* INSTAGRAM */
-
-/* .instagram h2 {
-  max-width: 60vw;
-  margin: 0 auto;
-  display: none;
-}
-
-.instagram-media {
-  margin: 0 auto !important;
-  max-width: 60vw;
-} */
 
 /* ABOUT */
 
@@ -234,11 +220,8 @@ footer a:hover {
   h3 {
     font-size: 3.4rem;
   }
-  section {
-    padding: 2.5vh 0;
-  }
   section:last-of-type {
-    padding: 2.5vh 0 5vh 0;
+    padding: 1rem 0 5vh 0;
   }
 
   /* HERO */
@@ -277,16 +260,6 @@ footer a:hover {
   .links div a img {
     height: 3.4rem;
   }
-
-  /* INSTAGRAM */
-
-  /* .instagram h2 {
-    max-width: 80vw;
-  }
-
-  .instagram-media {
-    max-width: 80vw;
-  } */
 
   /* ABOUT */
 
