@@ -133,15 +133,16 @@ section:last-of-type {
 
 /* INSTAGRAM */
 
-.instagram h2 {
+/* .instagram h2 {
   max-width: 60vw;
   margin: 0 auto;
+  display: none;
 }
 
 .instagram-media {
   margin: 0 auto !important;
   max-width: 60vw;
-}
+} */
 
 /* ABOUT */
 
@@ -279,13 +280,13 @@ footer a:hover {
 
   /* INSTAGRAM */
 
-  .instagram h2 {
+  /* .instagram h2 {
     max-width: 80vw;
   }
 
   .instagram-media {
     max-width: 80vw;
-  }
+  } */
 
   /* ABOUT */
 
