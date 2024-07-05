@@ -28,7 +28,7 @@ h2 {
   font-size: 5.4rem;
   user-select: none;
   padding-bottom: 1rem;
-  border-bottom: #fff solid 3px;
+  /* border-bottom: #fff solid 3px; */
 }
 h3 {
   font-size: 2.4rem;
@@ -109,36 +109,26 @@ section:last-of-type {
 }
 .links h2 {
   grid-column-start: 1;
-  border-bottom: #fff solid 3px;
+  padding-bottom: 0;
 }
-.links a {
-  grid-column-start: 2;
-  font-family: "IBM plex mono";
-  line-height: 2;
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  border-bottom: #fff solid 3px;
-  border-left: #fff solid 3px;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  margin-top: -3px;
-}
-.links a img {
-  background-color: #fff;
-  height: 2rem;
-}
-.link-whats {
-  grid-row-start: 5;
-}
-.link-forms {
-  grid-row-start: 4;
-}
-.link-docs {
-  grid-row-start: 3;
-}
-.link-meet {
+.links div {
   grid-row-start: 2;
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.links div a {
+  font-family: "IBM plex mono";
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  gap: 1rem;
+}
+.links div a img {
+  background-color: #fff;
+  border-radius: 5%;
+  height: 2rem;
 }
 
 /* INSTAGRAM */
@@ -146,7 +136,6 @@ section:last-of-type {
 .instagram h2 {
   max-width: 60vw;
   margin: 0 auto;
-  border: none !important;
 }
 
 .instagram-media {
@@ -161,7 +150,6 @@ section:last-of-type {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
   margin: 0 auto;
 }
 
@@ -172,12 +160,11 @@ section:last-of-type {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
 }
 .org-card {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 .org-card div {
   display: flex;
@@ -193,16 +180,18 @@ section:last-of-type {
 .org-card img {
   max-height: 200px;
   max-width: 20vw;
-  /* border-radius: 5%; */
-  border: #fff solid 3px;
+  border-radius: 2.5%;
+  /* border: #fff solid 3px; */
 }
 .org-card div a img {
   margin-top: 0.8rem;
-  height: 2rem;
+  height: 1.5rem;
   background-color: #fff;
+  border-radius: 5%;
 }
 .org-card div p {
   font-size: 1rem;
+  margin-bottom: -0.3rem;
 }
 
 /* FOOTER */
@@ -238,24 +227,6 @@ footer a:hover {
   body {
     font-size: 2.4rem;
   }
-  .hero {
-    padding-bottom: 12vh;
-  }
-  .queer-img {
-    max-width: 60vw;
-    max-height: 80vh;
-  }
-  .anchor--hero {
-    font-size: 6rem;
-  }
-  .link-docs,
-  .link-meet,
-  .link-whats {
-    gap: 1.6rem;
-  }
-  .links a img {
-    height: 3.4rem;
-  }
   h2 {
     font-size: 6.4rem;
   }
@@ -267,6 +238,19 @@ footer a:hover {
   }
   section:last-of-type {
     padding: 2.5vh 0 5vh 0;
+  }
+
+  /* HERO */
+
+  .hero {
+    padding-bottom: 12vh;
+  }
+  .queer-img {
+    max-width: 60vw;
+    max-height: 80vh;
+  }
+  .anchor--hero {
+    font-size: 6rem;
   }
 
   /* HOW-TO */
@@ -285,6 +269,12 @@ footer a:hover {
 
   .links {
     max-width: 80vw;
+  }
+  .links div {
+    gap: 1.6rem;
+  }
+  .links div a img {
+    height: 3.4rem;
   }
 
   /* INSTAGRAM */
@@ -315,6 +305,9 @@ footer a:hover {
   .org-card img {
     max-height: 250px;
     max-width: 26.6vw;
+  }
+  .org-card div a img {
+    height: 2.4rem;
   }
 
   /* FOOTER */
