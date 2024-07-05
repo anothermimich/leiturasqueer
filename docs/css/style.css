@@ -10,7 +10,7 @@ html {
 body {
   background-color: #222;
   /* overflow-y: hidden; */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   font-size: 1.4rem;
   font-weight: 400;
   color: #fff;
@@ -168,7 +168,6 @@ section:last-of-type {
   max-height: 200px;
   max-width: 20vw;
   border-radius: 2.5%;
-  /* border: #fff solid 3px; */
 }
 .org-card div a img {
   margin-top: 0.8rem;
