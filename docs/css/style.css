@@ -65,6 +65,9 @@ section:last-of-type {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-image: linear-gradient(rgba(255, 0, 0, 0) 60%, rgb(34, 34, 34) 90%),
+    url(/docs/imgs/desktop-hero.svg);
+  background-position: 20% 50%;
 }
 .queer-img-container {
   width: 100%;
@@ -77,6 +80,7 @@ section:last-of-type {
   max-width: 800px;
   max-height: 80vh;
   user-select: none;
+  display: none;
 }
 .anchor--hero {
   font-weight: bold;
@@ -227,8 +231,10 @@ footer a:hover {
 
   .hero {
     padding-bottom: 12vh;
+    background-image: none;
   }
   .queer-img {
+    display: flex;
     max-width: 60vw;
     max-height: 80vh;
   }
