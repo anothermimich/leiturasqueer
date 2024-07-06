@@ -66,7 +66,7 @@ section:last-of-type {
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(rgba(255, 0, 0, 0) 60%, rgb(34, 34, 34) 90%),
-    url("/docs/imgs/desktop-hero.svg");
+    url(../imgs/desktop-hero.svg);
   background-position: 20% 50%;
 }
 .queer-img-container {
