@@ -49,7 +49,7 @@ section:last-of-type {
 }
 .anchor {
   position: absolute;
-  transform: translateY(-20vh);
+  transform: translateY(-9rem);
 }
 
 .heart-cursor {
