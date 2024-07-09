@@ -160,6 +160,12 @@ section:last-of-type {
 }
 
 /* TEXT */
+.texts {
+  gap: 1rem;
+}
+.texts h2 {
+  padding-bottom: 0;
+}
 
 .texts ul {
   gap: 0.8rem;
@@ -250,8 +256,8 @@ footer a:hover {
   /* ORG */
 
   .org-card img {
-    max-height: 250px;
-    max-width: 26.6vw;
+    max-height: 200px;
+    max-width: 20vw;
   }
   .org-card div a img {
     height: 2.4rem;
