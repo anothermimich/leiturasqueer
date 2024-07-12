@@ -72,6 +72,7 @@ section:last-of-type {
 .nav {
   display: flex;
   position: fixed;
+  top: 0;
 }
 .nav-home img {
   height: var(--fs-3);
@@ -243,16 +244,20 @@ footer a:hover {
   section:last-of-type {
     padding: 1rem 0 5vh 0;
   }
+
   /* ------------ NAV -------------------- */
   .nav {
     position: fixed;
     background-color: #222;
     width: 100vw;
     padding-bottom: 1rem;
-    /* margin-bottom: -1rem; */
   }
   .nav-home img {
     height: var(--fs-3);
+  }
+  .about,
+  .texts {
+    padding-top: 9rem !important;
   }
 
   /* ------------ MAIN PAGE -------------- */
