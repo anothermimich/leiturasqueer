@@ -291,6 +291,10 @@ footer a:hover {
     gap: 1.5rem;
   }
 
+  .instagram-media {
+    overflow-x: hidden !important;
+  }
+
   /* ------------ ABOUT PAGE -------------- */
 
   /* ORG */
