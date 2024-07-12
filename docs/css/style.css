@@ -42,10 +42,6 @@ p {
   user-select: none;
   line-height: 1.6;
 }
-.small-caps {
-  font-variant: all-small-caps;
-  letter-spacing: 1px;
-}
 section {
   max-width: 60vw;
   margin: 0 auto;
@@ -58,15 +54,20 @@ section:last-of-type {
   display: flex;
   flex-direction: column;
 }
+.small-caps {
+  font-variant: all-small-caps;
+  letter-spacing: 1px;
+}
 .anchor {
   position: absolute;
-  transform: translateY(-9rem);
+  transform: translateY(-5vh);
 }
-
 .heart-cursor {
   cursor: url("data:image/svg+xml,%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools --%3E%3Csvg fill='%23ff0000' width='22px' height='22px' viewBox='0 0 1920 1920' xmlns='http://www.w3.org/2000/svg' stroke='%23ff0000'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'/%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M1771.731 291.037C1675.709 193.659 1547.944 140 1411.818 140h-.113c-136.125 0-263.777 53.66-359.573 150.924-37.618 38.07-68.571 80.997-92.294 127.426-23.61-46.429-54.563-89.356-92.068-127.313C771.86 193.659 644.208 140 507.97 140h-.113c-136.012 0-263.777 53.66-359.8 151.037-197.691 200.629-197.691 527.103 1.695 729.088l810.086 760.154 811.893-761.736c197.692-200.403 197.692-526.877 0-727.506' fill-rule='evenodd'/%3E%3C/g%3E%3C/svg%3E"),
     pointer;
 }
+
+/* ------------ MAIN PAGE -------------- */
 
 /* HERO */
 
@@ -95,6 +96,7 @@ section:last-of-type {
 }
 
 /* HOW-TO */
+
 .how-to h2 {
   line-height: 5.5rem;
 }
@@ -117,17 +119,29 @@ section:last-of-type {
 }
 .links div a {
   font-family: "IBM plex mono";
-  display: flex;
   white-space: nowrap;
-  align-items: center;
   gap: 0.8rem;
+  color: #222;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 3px;
 }
+/*
 .links div a img {
   background-color: #fff;
   border-radius: 5%;
   height: 1.8rem;
 }
+*/
 
+/* ------------ ABOUT PAGE -------------- */
+
+/* ABOUT */
+
+.about {
+  padding-top: 5vh !important;
+}
 /* ORG */
 
 .org-card {
@@ -159,9 +173,13 @@ section:last-of-type {
   margin-bottom: -0.3rem;
 }
 
+/* ------------ TEXTS PAGE -------------- */
+
 /* TEXT */
 .texts {
   gap: 1rem;
+  padding-top: 5vh !important;
+  min-height: 101vh;
 }
 .texts h2 {
   padding-bottom: 0;
@@ -205,9 +223,9 @@ footer a:hover {
 }
 @media only screen and (max-device-width: 700px) {
   :root {
-    --fs-1: 1.5rem;
-    --fs-2: 3rem;
-    --fs-3: 6rem;
+    --fs-1: 1.75rem;
+    --fs-2: 3.5rem;
+    --fs-3: 7rem;
   }
   section {
     max-width: 80vw;
@@ -215,6 +233,8 @@ footer a:hover {
   section:last-of-type {
     padding: 1rem 0 5vh 0;
   }
+
+  /* ------------ MAIN PAGE -------------- */
 
   /* HERO */
 
@@ -233,7 +253,7 @@ footer a:hover {
   /* HOW-TO */
 
   .anchor {
-    transform: translateY(-20vh);
+    transform: translateY(-5vh);
   }
   .how-to h2 {
     line-height: 6rem;
@@ -244,14 +264,8 @@ footer a:hover {
   .links div {
     gap: 1.5rem;
   }
-  .links div a img {
-    height: 3rem;
-  }
 
-  /* TEXTS */
-  .texts ul {
-    gap: 2rem;
-  }
+  /* ------------ ABOUT PAGE -------------- */
 
   /* ORG */
 
@@ -261,6 +275,14 @@ footer a:hover {
   }
   .org-card div a img {
     height: 2.4rem;
+  }
+
+  /* ------------ TEXTS PAGE -------------- */
+
+  /* TEXTS */
+
+  .texts ul {
+    gap: 2rem;
   }
 
   /* FOOTER */
