@@ -18,6 +18,7 @@ body {
   color: #fff;
 }
 a {
+  font-family: "IBM Plex mono", Helvetica, sans-serif;
   text-decoration: none;
   color: #fff;
 }
@@ -129,22 +130,14 @@ section:last-of-type {
   gap: 0.8rem;
 }
 .links div a {
-  font-family: "IBM plex mono";
   white-space: nowrap;
-  gap: 0.8rem;
+  gap: 1rem;
   color: #222;
   background-color: #fff;
   padding: 0.5rem 1rem;
   width: fit-content;
   border-radius: 3px;
 }
-/*
-.links div a img {
-  background-color: #fff;
-  border-radius: 5%;
-  height: 1.8rem;
-}
-*/
 
 /* ------------ ABOUT PAGE -------------- */
 
