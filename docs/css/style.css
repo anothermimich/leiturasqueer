@@ -37,6 +37,7 @@ h2 {
 }
 h3 {
   font-size: var(--fs-2);
+  padding-top: 1rem;
 }
 p {
   user-select: none;
