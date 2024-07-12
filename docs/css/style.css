@@ -290,10 +290,8 @@ footer a:hover {
   .links div {
     gap: 1.5rem;
   }
-
   .instagram-media {
-    overflow-x: hidden !important;
-    max-width: 500px !important;
+    max-width: 50vw !important;
   }
 
   /* ------------ ABOUT PAGE -------------- */
