@@ -137,6 +137,11 @@ section:last-of-type {
   padding: 0.5rem 1rem;
   width: fit-content;
   border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.links div a img {
+  max-height: var(--fs-2);
 }
 
 /* ------------ ABOUT PAGE -------------- */
