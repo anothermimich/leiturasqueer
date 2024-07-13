@@ -1,11 +1,1 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="-19.2 -19.2 230.40 230.40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#222222">
-<g id="SVGRepo_bgCarrier" stroke-width="0">
-<rect x="-19.2" y="-19.2" width="230.40" height="230.40" rx="46.08" fill="#ffffff" strokewidth="0"/>
-</g>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier">
-<path stroke="#222222" stroke-linejoin="round" stroke-width="12" d="M138 140V52c0-8.837-7.163-16-16-16H58.16L22 72.16V140c0 8.837 7.163 16 16 16h84c8.837 0 16-7.163 16-16Zm32-88v88l-32-28V80l32-28Z"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>

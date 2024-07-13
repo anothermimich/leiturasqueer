@@ -174,8 +174,9 @@ section:last-of-type {
 }
 .org-card div a img {
   margin-top: 0.8rem;
-  height: 1.8rem;
+  height: 2rem;
   background-color: #fff;
+  padding: 0.3rem;
   border-radius: 5%;
 }
 .org-card div p {
