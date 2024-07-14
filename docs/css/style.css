@@ -156,7 +156,7 @@ section:last-of-type {
 .org-card {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .org-card div {
   justify-content: center;
