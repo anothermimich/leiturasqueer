@@ -249,14 +249,15 @@ footer a:hover {
     background-color: #222;
     width: 100vw;
     padding-bottom: 1rem;
+    display: none;
   }
   .nav-home img {
     height: var(--fs-3);
   }
-  .about,
+  /* .about,
   .texts {
     margin-top: 2rem;
-  }
+  } */
 
   /* ------------ MAIN PAGE -------------- */
 
