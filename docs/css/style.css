@@ -16,6 +16,7 @@ body {
   font-size: var(--fs-1);
   font-weight: 400;
   color: #fff;
+  user-select: none;
 }
 a {
   font-family: "IBM Plex mono", Helvetica, sans-serif;
@@ -33,7 +34,6 @@ h3 {
 }
 h2 {
   font-size: var(--fs-3);
-  user-select: none;
   padding-bottom: 1rem;
 }
 h3 {
@@ -41,7 +41,6 @@ h3 {
   padding-top: 1rem;
 }
 p {
-  user-select: none;
   line-height: 1.6;
 }
 section {
