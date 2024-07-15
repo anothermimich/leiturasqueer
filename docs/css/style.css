@@ -98,7 +98,8 @@ section:last-of-type {
   max-width: 800px;
   max-height: 80vh;
   user-select: none;
-  display: flex;
+  align-self: center;
+  justify-self: center;
 }
 .anchor--hero {
   font-weight: bold;
