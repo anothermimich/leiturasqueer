@@ -143,6 +143,9 @@ section:last-of-type {
 .links div a img {
   max-height: var(--fs-2);
 }
+.instagram-media {
+  max-width: 500px !important;
+}
 
 /* ------------ ABOUT PAGE -------------- */
 
