@@ -1,4 +1,4 @@
-#Posters
+# Posters
 
 Essa pasta contém todos os arquivos `.svg` relacionados ao grupo.
 
