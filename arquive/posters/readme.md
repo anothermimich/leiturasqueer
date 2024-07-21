@@ -1,3 +1,5 @@
-This folder contains all the .svg arquives used for posters related to the group.
+#Posters
 
-\*This files don't follow the same license as the web page. All rights related to this designs are reserved.
+Essa pasta contém todos os arquivos `.svg` relacionados ao grupo.
+
+Esses arquivos não seguem a mesma licença do site. **Todos os diretos reservados.**
