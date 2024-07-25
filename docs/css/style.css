@@ -70,7 +70,7 @@ section:last-of-type {
 
 /* ------------ NAV -------------------- */
 .nav {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
 }
@@ -207,6 +207,18 @@ section:last-of-type {
   margin-left: 5px;
 }
 
+/* --------------- ROADMAP PAGE ----------- */
+
+.roadmap {
+  min-height: 101vh;
+  gap: var(--fs-2);
+}
+.roadmap img {
+  min-width: 600px;
+  max-width: 30vw;
+  margin: 0 auto;
+}
+
 /* FOOTER */
 
 footer {
@@ -315,6 +327,12 @@ footer a:hover {
 
   .texts ul {
     gap: 2rem;
+  }
+
+  /* --------------- ROADMAP PAGE ----------- */
+
+  .roadmap img {
+    max-width: 80vw;
   }
 
   /* FOOTER */
