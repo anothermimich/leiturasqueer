@@ -35,6 +35,7 @@ h3 {
 h2 {
   font-size: var(--fs-3);
   padding-bottom: 1rem;
+  line-height: 1.2;
 }
 h3 {
   font-size: var(--fs-2);
@@ -107,12 +108,6 @@ section:last-of-type {
   transform: rotate(90deg);
 }
 
-/* HOW-TO */
-
-.how-to h2 {
-  line-height: 5.5rem;
-}
-
 /* LINKS */
 
 .links {
@@ -130,7 +125,7 @@ section:last-of-type {
   gap: 0.8rem;
 }
 .links div a {
-  white-space: nowrap;
+  /* white-space: nowrap; */
   gap: 1rem;
   color: #222;
   background-color: #fff;
@@ -143,8 +138,12 @@ section:last-of-type {
 .links div a img {
   max-height: var(--fs-2);
 }
+.instagram {
+  position: relative !important;
+}
 .instagram-media {
-  max-width: 500px !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
 }
 
 /* ------------ ABOUT PAGE -------------- */
@@ -211,12 +210,13 @@ section:last-of-type {
 
 .roadmap {
   min-height: 101vh;
-  gap: var(--fs-2);
 }
+
 .roadmap img {
   min-width: 600px;
   max-width: 30vw;
   margin: 0 auto;
+  margin-top: 2rem;
 }
 
 /* FOOTER */
@@ -248,9 +248,10 @@ footer a:hover {
 }
 @media only screen and (max-device-width: 700px) {
   :root {
-    --fs-1: 1.75rem;
-    --fs-2: 3.5rem;
-    --fs-3: 7rem;
+    --fs-0: 0.8rem;
+    --fs-1: 1rem;
+    --fs-2: 2rem;
+    --fs-3: 3rem;
   }
   section {
     max-width: 80vw;
@@ -259,36 +260,24 @@ footer a:hover {
     padding: 1rem 0 5vh 0;
   }
 
-  /* ------------ NAV -------------------- */
-  .nav {
-    position: fixed;
-    background-color: #222;
-    width: 100vw;
-    padding-bottom: 1rem;
-    display: none;
-  }
-  .nav-home img {
-    height: var(--fs-3);
-  }
-  /* .about,
-  .texts {
-    margin-top: 2rem;
-  } */
-
   /* ------------ MAIN PAGE -------------- */
 
   /* HERO */
 
   .hero {
-    padding-bottom: 12vh;
+    justify-content: space-evenly;
     background-image: none;
+    min-height: 101vh;
+  }
+  .queer-img-container {
+    height: auto;
   }
   .queer-img {
     max-width: 60vw;
     max-height: 80vh;
   }
   .anchor--hero {
-    font-size: 6rem;
+    font-size: var(--fs-2);
   }
 
   /* HOW-TO */
@@ -296,42 +285,52 @@ footer a:hover {
   .anchor {
     transform: translateY(-1rem);
   }
-  .how-to h2 {
-    line-height: 6rem;
-  }
 
   /* LINKS */
 
   .links div {
-    gap: 1.5rem;
+    gap: 0.5rem;
   }
-  .instagram-media {
-    max-width: 50vw !important;
+  .links div a {
+    gap: 0.5rem;
+  }
+  .links div a img {
+    max-height: 1.2rem;
   }
 
   /* ------------ ABOUT PAGE -------------- */
 
   /* ORG */
+  .org-card {
+    white-space: nowrap;
+    gap: 0.5rem;
+  }
+  .org-card h3 {
+    padding-top: 0;
+  }
+  .pronomes,
+  .org-card div p {
+    font-size: var(--fs-0);
+  }
 
   .org-card img {
     max-height: 200px;
-    max-width: 20vw;
+    max-width: 22vw;
   }
   .org-card div a img {
-    height: 2.4rem;
+    height: 1.2rem;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
   }
 
   /* ------------ TEXTS PAGE -------------- */
 
   /* TEXTS */
 
-  .texts ul {
-    gap: 2rem;
-  }
-
   /* --------------- ROADMAP PAGE ----------- */
 
   .roadmap img {
+    min-width: auto;
     max-width: 80vw;
   }
 
@@ -340,9 +339,12 @@ footer a:hover {
   footer {
     padding: 2rem 10vw;
   }
+  footer a {
+    font-size: var(--fs-0);
+  }
 
   .license-icons img {
-    width: 1.6rem;
+    width: var(--fs-0);
   }
 }
 
