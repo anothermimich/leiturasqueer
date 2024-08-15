@@ -230,7 +230,7 @@ footer {
 footer a {
   color: #222;
 }
-made-with-love:hover {
+.made-with-love:hover {
   color: rgb(243, 0, 0);
 }
 .footer-license {
