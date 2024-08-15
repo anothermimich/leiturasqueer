@@ -253,6 +253,7 @@ made-with-love:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 .footer-logos img {
   opacity: 95%;
@@ -360,6 +361,9 @@ made-with-love:hover {
   }
   .license-icons img {
     width: var(--fs-0);
+  }
+  .footer-logos {
+    gap: 0.5rem;
   }
   .footer-logos img {
     height: var(--fs-2);
