@@ -224,7 +224,7 @@ section:last-of-type {
 footer {
   padding: 2rem 20vw;
   margin-top: auto;
-  gap: 1rem;
+  gap: 2rem;
   background-color: #fff;
 }
 footer a {
@@ -256,7 +256,7 @@ made-with-love:hover {
 }
 .footer-logos img {
   opacity: 95%;
-  height: var(--fs-3);
+  height: 3rem;
   margin: 0rem 0.5rem;
 }
 @media only screen and (max-device-width: 700px) {
@@ -351,7 +351,6 @@ made-with-love:hover {
 
   footer {
     padding: 2rem 10vw;
-    gap: 2rem;
   }
   footer a {
     font-size: var(--fs-0);
