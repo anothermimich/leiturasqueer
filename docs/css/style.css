@@ -138,21 +138,14 @@ section:last-of-type {
 .links div a img {
   max-height: var(--fs-2);
 }
-.instagram {
-  position: relative !important;
-}
-.instagram-media {
-  max-width: 100% !important;
-  min-width: 100% !important;
-}
 
 /* ------------ ABOUT PAGE -------------- */
 
 /* ABOUT */
-
-.about {
-  padding-top: 5vh !important;
+.about :last-child {
+  padding-top: 0.5rem;
 }
+
 /* ORG */
 
 .org-card {
@@ -216,7 +209,7 @@ section:last-of-type {
   min-width: 600px;
   max-width: 30vw;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 /* FOOTER */
@@ -355,9 +348,6 @@ footer a {
   }
   footer a {
     font-size: var(--fs-0);
-  }
-  .footer-license {
-    align-items: last baseline;
   }
   .license-icons img {
     width: var(--fs-0);
