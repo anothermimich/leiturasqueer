@@ -142,8 +142,18 @@ section:last-of-type {
 /* ------------ ABOUT PAGE -------------- */
 
 /* ABOUT */
-.about :last-child {
+.about-mail {
   padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.about-mail img {
+  height: 2rem;
+  background-color: #fff;
+  padding: 0.3rem;
+  border-radius: 5%;
+  margin-top: 0.3rem;
 }
 
 /* ORG */
@@ -330,9 +340,12 @@ footer a {
     margin-top: 0.5rem;
   }
 
-  /* ------------ TEXTS PAGE -------------- */
+  /* ------------ ABOUT PAGE -------------- */
 
-  /* TEXTS */
+  .about-mail img {
+    height: 1.2rem;
+    padding: 0.2rem;
+  }
 
   /* --------------- ROADMAP PAGE ----------- */
 
