@@ -157,6 +157,10 @@ section:last-of-type {
 }
 
 /* ORG */
+.org
+{
+  display: none;
+}
 
 .org-card {
   display: grid;
