@@ -175,6 +175,9 @@ section:last-of-type {
   justify-content: center;
   margin-top: -0.5rem;
 }
+.org-card h3 {
+  padding-top: 0;
+}
 .pronomes {
   font-family: "IBM Plex mono";
   font-weight: 300;
@@ -329,9 +332,6 @@ footer a {
   .org-card {
     white-space: nowrap;
     gap: 0.5rem;
-  }
-  .org-card h3 {
-    padding-top: 0;
   }
   .pronomes,
   .org-card div p {
