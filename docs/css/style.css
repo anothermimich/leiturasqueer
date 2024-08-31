@@ -233,6 +233,44 @@ section:last-of-type {
   margin-top: 3rem;
 }
 
+/* -------------- Eco Bags --------------- */
+.bags {
+  gap: 1rem;
+  min-height: 101vh;
+}
+.bags-imgs {
+  display: flex;
+  flex-direction: row;
+  min-width: 60vw;
+  justify-content: space-between;
+}
+
+.bags-imgs img {
+  max-width: 19vw;
+}
+.bags-description ul {
+  gap: 0.8rem;
+}
+.bags-description ul li {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+}
+.bags-btn {
+  gap: 1rem;
+  color: #222;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.bags-btn img {
+  max-height: var(--fs-2);
+}
+
 /* FOOTER */
 
 footer {
@@ -348,8 +386,6 @@ footer a {
     margin-top: 0.5rem;
   }
 
-  /* ------------ ABOUT PAGE -------------- */
-
   .about-mail img {
     height: 1.2rem;
     padding: 0.2rem;
@@ -360,6 +396,37 @@ footer a {
   .roadmap img {
     min-width: auto;
     max-width: 80vw;
+  }
+
+  /* -------------- Eco Bags --------------- */
+
+  .bags-imgs {
+    min-width: 80vw;
+    max-width: 80vw;
+    overflow: scroll;
+    gap: 0.8rem;
+    scrollbar-width: 0;
+  }
+
+  .bags-imgs img {
+    max-width: 60vw;
+  }
+  .bags-description ul {
+    gap: 0.8rem;
+  }
+  .bags-description ul li {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 5px;
+  }
+  .bags-btn {
+    gap: 0.5rem;
+  }
+  .bags-btn a {
+    gap: 0.5rem;
+  }
+  .bags-btn img {
+    max-height: 1.2rem;
   }
 
   /* FOOTER */
