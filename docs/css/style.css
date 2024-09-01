@@ -81,12 +81,26 @@ ul li {
 
 /* ------------ NAV -------------------- */
 .nav {
-  display: block;
-  position: fixed;
+  display: flex;
+  /* position: ; */
+  align-items: center;
+  justify-content: space-between;
   top: 0;
+  width: 100vw;
+  background-color: #fff;
+  padding-right: 20vw;
+}
+.nav-home {
+  display: flex;
+}
+.nav div a {
+  background-color: #222;
+  padding: 0.4rem 0.5rem;
+  margin-left: 0.5rem;
+  font-weight: 400;
 }
 .nav-home img {
-  height: var(--fs-3);
+  max-height: var(--fs-2);
 }
 
 /* ------------ MAIN PAGE -------------- */
@@ -314,10 +328,7 @@ footer a {
 
   /* ------------ NAV -------------------- */
   .nav {
-    position: static;
-  }
-  .nav-home img {
-    height: var(--fs-2);
+    padding-right: 10vw;
   }
 
   /* ------------ MAIN PAGE -------------- */
