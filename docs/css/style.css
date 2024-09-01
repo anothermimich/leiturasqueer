@@ -330,6 +330,10 @@ footer a {
   .nav {
     padding-right: 10vw;
   }
+  .nav div a {
+    border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+  }
 
   /* ------------ MAIN PAGE -------------- */
 
