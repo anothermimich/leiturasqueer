@@ -52,6 +52,16 @@ section {
 section:last-of-type {
   padding: 1rem 0 10vh 0;
 }
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+ul li {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+}
 .flex--column {
   display: flex;
   flex-direction: column;
@@ -155,14 +165,6 @@ section:last-of-type {
   border-radius: 5%;
   margin-top: 0.3rem;
 }
-.objectives ul {
-  gap: 0.8rem;
-}
-.objectives ul li {
-  list-style-type: square;
-  list-style-position: inside;
-  margin-left: 5px;
-}
 
 /* ORG */
 
@@ -211,15 +213,6 @@ section:last-of-type {
   padding-bottom: 0;
 }
 
-.texts ul {
-  gap: 0.8rem;
-}
-.texts ul li {
-  list-style-type: square;
-  list-style-position: inside;
-  margin-left: 5px;
-}
-
 /* --------------- ROADMAP PAGE ----------- */
 
 .roadmap {
@@ -248,14 +241,7 @@ section:last-of-type {
 .bags-imgs img {
   max-width: 19vw;
 }
-.bags-description ul {
-  gap: 0.8rem;
-}
-.bags-description ul li {
-  list-style-type: square;
-  list-style-position: inside;
-  margin-left: 5px;
-}
+
 .bags-btn {
   gap: 1rem;
   color: #222;
