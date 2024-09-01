@@ -81,7 +81,7 @@ ul li {
 
 /* ------------ NAV -------------------- */
 .nav {
-  display: none;
+  display: block;
   position: fixed;
   top: 0;
 }
@@ -310,6 +310,17 @@ footer a {
   }
   section:last-of-type {
     padding: 1rem 0 5vh 0;
+  }
+
+  /* ------------ NAV -------------------- */
+  .nav {
+    display: block;
+    position: static;
+    top: 0;
+  }
+  .nav-home img {
+    height: var(--fs-2);
+    margin-bottom: 0rem;
   }
 
   /* ------------ MAIN PAGE -------------- */
