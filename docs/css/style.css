@@ -314,13 +314,10 @@ footer a {
 
   /* ------------ NAV -------------------- */
   .nav {
-    display: block;
     position: static;
-    top: 0;
   }
   .nav-home img {
     height: var(--fs-2);
-    margin-bottom: 0rem;
   }
 
   /* ------------ MAIN PAGE -------------- */
