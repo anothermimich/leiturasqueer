@@ -95,7 +95,7 @@ ul li {
 }
 .nav div a {
   background-color: #222;
-  padding: 0.4rem 0.5rem;
+  padding: 100% 0.5rem;
   margin-left: 0.5rem;
   font-weight: 400;
 }
