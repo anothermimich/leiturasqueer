@@ -331,8 +331,11 @@ footer a {
     padding-right: 10vw;
   }
   .nav div a {
-    border-top-left-radius: 3px;
-    border-top-left-radius: 3px;
+    /* border-top-left-radius: 3px; */
+    /* border-top-left-radius: 3px; */
+    padding: 0 0;
+    background-color: #fff;
+    color: #222;
   }
 
   /* ------------ MAIN PAGE -------------- */
