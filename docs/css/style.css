@@ -187,9 +187,9 @@ ul li {
   grid-template-columns: auto 1fr;
   gap: 1.5rem;
 }
-.org-card div {
+.org-text-wrp {
+  margin-top: -0.5rem;
   justify-content: center;
-  /* margin-top: -0.5rem; */
 }
 .org-card h3 {
   padding-top: 0;
@@ -206,7 +206,7 @@ ul li {
 }
 .org-icons {
   display: flex;
-  justify-content: left !important;
+  justify-content: left;
   gap: 0.5rem;
 }
 .org-icons a img {
