@@ -204,7 +204,12 @@ ul li {
   max-width: 20vw;
   border-radius: 2.5%;
 }
-.org-card div a img {
+.org-icons {
+  display: flex;
+  justify-content: left !important;
+  gap: 0.5rem;
+}
+.org-icons a img {
   margin-top: 0.8rem;
   height: 2rem;
   background-color: #fff;
@@ -395,10 +400,10 @@ footer a {
     max-height: 200px;
     max-width: 22vw;
   }
-  .org-card div a img {
+  .org-icons a img {
     height: 1.2rem;
     padding: 0.2rem;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
   }
 
   .about-mail img {
