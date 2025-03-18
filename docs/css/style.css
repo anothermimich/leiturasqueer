@@ -87,9 +87,12 @@ ul li {
   justify-content: space-between;
   top: 0;
   width: 100vw;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding-right: 20vw;
 }
+/* .nav a img {
+  fill: #fff;
+} */
 .nav-home {
   display: flex;
 }
