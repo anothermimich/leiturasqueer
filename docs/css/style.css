@@ -87,12 +87,9 @@ ul li {
   justify-content: space-between;
   top: 0;
   width: 100vw;
-  /* background-color: #fff; */
   padding-right: 20vw;
+  padding-top: 2vh;
 }
-/* .nav a img {
-  fill: #fff;
-} */
 .nav-home {
   display: flex;
 }
@@ -345,8 +342,6 @@ footer a {
     /* border-top-left-radius: 3px; */
     /* border-top-left-radius: 3px; */
     padding: 0 0;
-    background-color: #fff;
-    color: #222;
   }
 
   /* ------------ MAIN PAGE -------------- */
