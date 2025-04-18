@@ -245,6 +245,23 @@ ul li {
   margin-top: 3rem;
 }
 
+/* -------------- Events --------------- */
+.events {
+  gap: 1rem;
+  min-height: 101vh;
+}
+.events-imgs {
+  display: flex;
+  flex-direction: row;
+  min-width: 60vw;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.events-imgs img {
+  max-width: 25vw;
+}
+
 /* -------------- Eco Bags --------------- */
 .bags {
   gap: 1rem;
@@ -418,9 +435,21 @@ footer a {
 
   /* -------------- Eco Bags --------------- */
 
+  .events-imgs {
+    min-width: 80vw;
+    overflow: scroll;
+    gap: 0.8rem;
+    scrollbar-width: 0;
+  }
+
+  .events-imgs img {
+    max-width: 50vw;
+  }
+
+  /* -------------- Eco Bags --------------- */
+
   .bags-imgs {
     min-width: 80vw;
-    max-width: 80vw;
     overflow: scroll;
     gap: 0.8rem;
     scrollbar-width: 0;
