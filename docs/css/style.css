@@ -350,6 +350,7 @@ footer a {
   /* ------------ NAV -------------------- */
   .nav {
     padding-right: 10vw;
+    padding-left: 10vw;
   }
   .nav div a {
     padding: 0 0;
